@@ -112,7 +112,7 @@ A convex optimization problem is defined by two ingredients:
 -   The **objective function** $f$, which is a real-valued convex function of $n$ variables, given by $f: \mathcal{D} \subseteq \mathbb{R}^n \rightarrow \mathbb{R}$.
 -   The **feasible set**, which is a convex subset $C \subseteq \mathbb{R}^n$.
 
-The goal of the problem is to find some $\mathbf{x}^{\ast} \in C$ attaining $\text{inf} \{ f(\mathbf{x}) : \mathbf{x} \in C \}$.
+The goal of the problem is to find some $\mathbf{x}^{\ast} \in C$ attaining $\text{inf} \set{ f(\mathbf{x}) : \mathbf{x} \in C }$.
 
 In general, there are three options regarding the existence of a solution:
 
