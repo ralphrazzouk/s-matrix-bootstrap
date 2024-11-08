@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Worksheet>
+<Version major="2020" minor="1"/>
+<Label-Scheme value="2" prefix=""/>
+<View-Properties presentation="false" autoexpanding_sections="true" UserProfileName="Maple Default Profile" NumericFormat-ApplyInteger="true" NumericFormat-ApplyRational="true" NumericFormat-ApplyExponent="false" editable="true">
+</View-Properties>
+<MapleNet-Properties prettyprint="3" warnlevel="3" compactdisplay="false" preplot="" helpbrowser="standard" displayprecision="-1" echo="1" unitattributes="&quot;fontweight&quot; = &quot;bold&quot;" imaginaryunit="I" longdelim="true" elisiontermsthreshold="10000" elisiondigitsafter="100" elisiondigitsbefore="100" plotdevice="inline" errorbreak="1" plotoptions="" plotdriver="opengl" quiet="false" elisiontermsbefore="100" elisiontermsafter="100" historytimestamp="false" screenwidth="79" indentamount="4" plotoutput="terminal" screenpixelheight="1440" rtablesize="[10, 10]" useclientjvm="true" labelwidth="20" postplot="" typesetting="extended" ansi="false" ansicolor="[]" elisiondigitsthreshold="10000" showassumed="1" ansilprint="false" trailingsemicolon="true" errorcursor="false" labelling="true" screenheight="25" prompt="&gt; " verboseproc="1" latexwidth="8.0" ShowLabels="true"/>
+<Styles>
+<Font name="Heading 1" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Warning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Line Printed Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 2" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="16" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Output" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Inert Output" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[144,144,144]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Heading 3" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="true" opaque="false" readonly="false" size="14" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Diagnostic" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[40,120,40]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 1" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[120,0,14]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text Output" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 2" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 3" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 4" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Ordered List 5" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Header and Footer" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="10" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkError" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Atomic Variable" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[175,0,175]" italic="true" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="HyperlinkWarning" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[0,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Dictionary Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[147,0,15]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="2D Math" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Bullet Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Plot" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Annotation Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="List Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Dash Item" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="2D Input" background="[255,255,255]" bold="false" executable="true" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Error" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,255]" italic="false" opaque="false" readonly="true" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Title" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="18" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Text" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Normal" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Caption Reference" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Code" background="[255,255,255]" bold="false" executable="false" family="Courier New" foreground="[255,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Maple Input Placeholder" background="[255,255,255]" bold="true" executable="true" family="Courier New" foreground="[200,0,200]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="true"/>
+<Font name="Equation Label" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Author" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Font name="Hyperlink" background="[255,255,255]" bold="false" executable="false" family="Times New Roman" foreground="[0,128,128]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="true" placeholder="false"/>
+<Font name="Caption Text" background="[255,255,255]" bold="true" executable="false" family="Times New Roman" foreground="[0,0,0]" italic="false" opaque="false" readonly="false" size="12" subscript="false" superscript="false" underline="false" placeholder="false"/>
+<Layout name="Heading 1" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="4" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Warning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 4" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Line Printed Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 2" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="2" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Output" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.3" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Heading 3" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Diagnostic" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="any" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 1" alignment="left" bullet="numeric" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Text Output" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="newline" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Ordered List 2" alignment="left" bullet="alphabetic" firstindent="0" leftmargin="36" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 3" alignment="left" bullet="roman" firstindent="0" leftmargin="72" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 4" alignment="left" bullet="ALPHABETIC" firstindent="0" leftmargin="108" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Ordered List 5" alignment="left" bullet="ROMAN" firstindent="0" leftmargin="144" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="-1" bulletsuffix="."/>
+<Layout name="Annotation Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkError" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="HyperlinkWarning" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Bullet Item" alignment="left" bullet="dot" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Maple Plot" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="List Item" alignment="left" bullet="indent" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Dash Item" alignment="left" bullet="dash" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="3" spacebelow="3" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Error" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Title" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="12" spacebelow="12" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Normal" alignment="left" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="0" spacebelow="0" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Layout name="Author" alignment="centred" bullet="none" firstindent="0" leftmargin="0" rightmargin="0" linespacing="0.0" spaceabove="8" spacebelow="8" linebreak="space" pagebreak-before="false" initial="0" bulletsuffix=""/>
+<Pencil-style name="Pencil 1" pen-color="[0,0,0]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 2" pen-color="[0,0,255]" pen-height="1.0" pen-width="1.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 3" pen-color="[0,0,0]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 4" pen-color="[0,0,255]" pen-height="3.0" pen-width="3.0" pen-opacity="1.0"/>
+<Pencil-style name="Pencil 5" pen-color="[255,0,0]" pen-height="5.0" pen-width="5.0" pen-opacity="1.0"/>
+<Highlighter-style name="Highlighter 5" pen-color="[255,255,0]" pen-height="48.0" pen-width="48.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 3" pen-color="[51,255,0]" pen-height="24.0" pen-width="24.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 4" pen-color="[0,255,255]" pen-height="32.0" pen-width="32.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 1" pen-color="[255,153,255]" pen-height="12.0" pen-width="8.0" pen-opacity="0.8"/>
+<Highlighter-style name="Highlighter 2" pen-color="[255,204,0]" pen-height="14.0" pen-width="14.0" pen-opacity="0.8"/>
+</Styles>
+<Startup-Code startupcode=""/>
+<Task-table>
+    <Task-category name="&lt;default&gt;"/>
+</Task-table>
+<Task/>
+<Group hide-input="false" labelreference="L2" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Title" alignment="left">with(plots):
+with(LinearAlgebra):
+with(StringTools):</Text-field>
+</Input>
+</Group>
+<Section collapsed="false" isCollapsible="true" drawButton="true" MultipleChoiceAnswerIndex="-1" MultipleChoiceRandomizeChoices="false" TrueFalseAnswerIndex="-1" EssayAnswerRows="5" EssayAnswerColumns="60"><Title><Text-field style="Heading 1" layout="Heading 1" alignment="centred"><Font size="28" family="Poppins ExtraBold">PRIMAL</Font></Text-field></Title>
+<Group hide-input="false" labelreference="L17021" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18831" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">RatInt := proc(f0n, f0d, x, a, b) local Dp, Qp, Tp, Mp, Np, j, Eq, Eqv, solM, p1, r1;
+# compute integral of ratio of polynomials f0n/f0d 
+# f0d should be factorized at least such that Dp is easy to compute. 
+# Does not check anything (eg assumes no poles in interval of integration). 
+    r1 := quo(f0n, f0d, x):
+    p1 := rem(f0n, f0d, x):
+    Dp := gcd(f0d, diff(f0d, x)): 
+    Qp := f0d/Dp:
+    Mp := add(x^j * mp[j], j = 0..degree(Dp, x) - 1):
+    Np := add(x^j * np[j], j = 0..degree(Qp, x) - 1):
+    Tp := simplify(diff(f0d, x) / Dp):
+    Eq := simplify(p1 - diff(Mp, x) * Qp + Mp * (Tp - diff(Qp, x)) - Np * Dp):
+    Eqv := [seq(coeff(Eq, x, j), j = 0..degree(Eq, x))]:
+    solM := solve(Eqv, [seq(mp[j], j = 0..degree(Dp, x) - 1), seq(np[j], j=  0..degree(Qp, x) - 1)]):
+
+    Mp/Dp + int(Np/Qp, x):
+    subs(solM[1], %):
+
+    int(r1,x=a..b)+subs(x=b,%)-subs(x=a,%):
+    return(simplify(%)):
+end proc:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18828" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">printQ := proc(x, j) if irem(x,j) = 0 then print(x): end if: end proc:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18833" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">#######################################################################################################</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18832" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18835" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18836" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">delta := (x, y) -&gt; `if`(x = y, 1, 0);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18837" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">assume(s4 &lt; 4, s4 &gt; 0, -1 &lt; z, z &lt; 1):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18834" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18839" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,255,255]">########## BASIS FUNCTIONS ##########</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18838" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">phi := (n, phi) -&gt; 2/sin(phi/2)^2 * sin(n * phi);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18841" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi := (n, s) -&gt; zf(s)^n;</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18842" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phit := (n, xi) -&gt; exp(I * n * xi);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18843" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phi0 := (s) -&gt; zf(s)/(1 - zf(s));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18840" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phit0 := (xi) -&gt; exp(I * xi)/(1 - exp(I * xi));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L18844" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Phif := (n, s) -&gt; `if`(n = 0, Phi0(s), Phi(n, s));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31295" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L17473" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">unassign('l', 'u', 'sigma'):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31285" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">assume(sigma &gt; 0):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31286" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">t1 := sigma -&gt; 4*(1 - sigma^2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31287" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(-2/(u^2 - 4) * diff(t1(sigma), sigma) * Phi(n, t1(sigma)) * LegendreP(l, 1 + 2 * t1(sigma)/(u^2 - 4))):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31284" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fb := unapply(%, n, l, u, sigma);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31289" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">simplify(-2/(u^2 - 4) * diff(t1(sigma), sigma) * Phi0(t1(sigma)) * LegendreP(l, 1 + 2 * t1(sigma)/(u^2 - 4))):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31290" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Fb0 := unapply(%, l, u, sigma);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31291" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31288" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[0,255,255]">########## PARTIAL WAVES ##########</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31688" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,0,0]">readPartialWavesFromFile:=true:</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31687" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">Nf := 3:  #[6,8,32,32,8], [6,8,64,64,8], [6,8,200,200,8], [8,14,32,32,14], [8,14,64,64,14]</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31690" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31704" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">for Vmax in [[6,8,32,32,8], [6,8,64,64,8], [6,8,200,200,8], [8,14,32,32,14], [8,14,64,64,14]] do</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31689" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    lmax   := Vmax[1]:    # lmax is the number of partial waves per channel 
+    Nmax   := Vmax[2]:
+    M      := Vmax[3]:
+    Lambda := Vmax[4]:
+    Nmax2  := Vmax[5]:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31692" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    lmax2  := 2*lmax - 1: # maximum angular momentum to get lmax odd partial waves.</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31691" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31700" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    dataFHFile := sprintf(&quot;%s/SmQCD_FH_data_3pion_pole0_lmax%d_Na%d_Na2%d.m&quot;, currentdir(), lmax, Nmax, Nmax2);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31699" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    dataMFile := sprintf(&quot;%s/SmQCD_K_data_3pion_pole0_lmax%d_Na%d_M%d_Lambda%d_Na2%d_Nf%d_C.mat&quot;, currentdir(), lmax, Nmax, M, Lambda, Nmax2, Nf);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31702" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    dataMFileW := sprintf(&quot;%s/SmQCD_W_data_3pion_pole0_lmax%d_Na%d_M%d_Lambda%d_Na2%d_Nf%d_C.mat&quot;, currentdir(), lmax, Nmax, M, Lambda, Nmax2, Nf);</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31701" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31694" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,0,0]">if readPartialWavesFromFile then 
+        </Font><Font foreground="[255,102,0]">printf(&quot;Reading Analytic integrals from %s... &quot;, dataFHFile):
+        st1 := time():
+        </Font>read dataFHFile:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31693" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,0,0]">else
+        </Font><Font foreground="[255,102,0]">printf(&quot;Starting Analytic integrals... &quot;):
+        st1 := time():</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31696" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"> </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31695" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        assume(u &gt; 0):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31698" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do
+            for m1 from 1 to Nmax2 do
+                Fb(m1, l1, u, sigma):
+                expand(%):
+                Fba := simplify(%):
+                RatInt(numer(Fba), denom(Fba), sigma, 1, u/2):
+                simplify(%):
+                PhiHM[m1, l1] := unapply(%, u):
+            od:
+        od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31697" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do
+            for m1 from 1 to Nmax2 do
+                convert(series(PhiHM[m1, l1](u), u = 2, Nmax2 + 10), polynom):
+                PhiHMs[m1, l1] := unapply(%, u):
+            od:
+        od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31714" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do
+            Fb0(l1, u, sigma):
+            expand(%):
+            Fba0 := simplify(%):
+            RatInt(numer(Fba0), denom(Fba0), sigma, 1, u/2):
+            simplify(%):
+            PhiHM[0, l1] := unapply(%, u):
+        od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31713" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do
+            convert(series(PhiHM[0, l1](u), u = 2, Nmax2 + 10), polynom):
+            PhiHMs[0, l1] := unapply(%, u):
+        od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31716" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L31715" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        assume(chi &gt; -1 + sqrt(2), chi &gt; 0, chi^2 - 2*chi - 1 &lt; 0, chi^2 + 2*chi - 1 &gt; 0, chi &lt; 1, chi, real):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31720" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do
+            collect(simplify((1 + eta^2)^(2*l1) * (chi^4 - 6*chi^2 + 1)^l1 * LegendreP(l1, (1 + chi^2)^2/(chi^4 - 6*chi^2 + 1)*(eta^4 - 6*eta^2 + 1)/(1 + eta^2)^2)), eta):
+            eta*(1 - eta^2)*(eta^2 - chi^2)^n * (eta - (1 - chi)/(1 + chi))^m * (eta - (1 + chi)/(1 - chi))^m*%:
+            f0n[l1] := unapply(%, n, m, eta, chi):
+            C0[l1]  := unapply(32*(1 + chi^2)^2/(1 - chi^2)^2/(chi^4 - 6*chi^2 + 1)^l1, chi):
+            f0d[l1] := unapply((1 + eta^2)^(3 + 2*l1) * (1 - chi^2*eta^2)^n * (eta + (1 - chi)/(1 + chi))^m * (eta + (1 + chi)/(1 - chi))^m, n, m, eta, chi):
+        od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31719" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31722" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        Qp  := (1 + eta^2) * (1 - chi^2 * eta^2) * (eta + (1 - chi)/(1 + chi)) * (eta + (1 + chi)/(1 - chi)):
+        F5  := A1 * ln(1/chi - eta) + A2 * ln(eta + 1/chi) + A3 * ln(eta + (1 + chi)/(1 - chi)) + A4 * ln(eta + (1 - chi)/(1 + chi)) + A5 * ln(1 + eta^2) + A6 * arctan(eta):
+        F5I := simplify(subs(eta = chi, F5) - subs(eta = (1 - chi)/(1 + chi), F5)):
+        Np  := simplify(expand(Qp * diff(F5, eta))):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31721" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31724" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do
+            print(l1):
+            for m1 from 1 to Nmax do
+                for m2 from 1 to m1 do
+                    Dp:=simplify(f0d[l1](m1,m2,eta,chi)/Qp):
+                    Mp:=add(eta^j*mp[j],j=0..degree(Dp,eta)-1):
+                    Tp:=simplify(diff(f0d[l1](m1,m2,eta,chi),eta)/Dp):
+                    Eq:=collect(f0n[l1](m1,m2,eta,chi)-diff(Mp,eta)*Qp+Mp*(Tp-diff(Qp,eta))-Np*Dp,eta): 
+                    Eqv:=[seq(coeff(Eq,eta,j),j=0..degree(Eq,eta))]:
+                    solM:=solve(Eqv,[seq(mp[j],j=0..degree(Dp,eta)-1),A1,A2,A3,A4,A5,A6]):
+
+                    simplify(C0[l1](chi)*(subs(solM[1],simplify(subs(eta=chi,Mp/Dp)-subs(eta=(1-chi)/(1+chi),Mp/Dp))+F5I))):
+                    -1/2*(1-chi^2)^2/(chi^4-6*chi^2+1)*%:   # factor 2/(s-4) from dmu -&gt; dt
+
+                    PhiTM[m1,m2,l1]:=unapply(%,chi):
+                    if m1&lt;&gt;m2 then
+                        (-1)^l1*PhiTM[m1,m2,l1](chi):
+                        PhiTM[m2,m1,l1]:=unapply(%,chi):
+                    end if:
+                od:
+            od:
+        od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31723" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31718" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        <Font foreground="[51,204,204]">########## m 0 CASE ##########
+        </Font>for l1 from 0 to lmax2 do
+            collect(simplify((1 + eta^2)^(2 * l1) * (chi^4 - 6*chi^2 + 1)^l1 * LegendreP(l1, (1 + chi^2)^2/(chi^4 - 6*chi^2 + 1)*(eta^4 - 6*eta^2 + 1)/(1 + eta^2)^2)), eta):
+            (1 - eta^2) * (eta^2 - chi^2)^n * (eta - (1 - chi)/(1 + chi)) * (eta - (1 + chi)/(1 - chi))*%:
+            f0n0[l1] := unapply(%, n, eta, chi):
+            C00[l1]  := unapply(-4 * (1 - chi^4)/(chi^4 - 6*chi^2 + 1)^(l1 + 1), chi):
+            f0d0[l1] := unapply((1 + eta^2)^(3 + 2*l1)*(1 - chi^2 * eta^2)^n, n, eta, chi):
+        od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31717" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        Qp0  := (1 + eta^2) * (1 - chi^2 * eta^2):
+        F50  := B1 * ln(1/chi - eta) + B2 * ln(eta + 1/chi) + B3 * ln(1 + eta^2) + B4 * arctan(eta):
+        F5I0 := simplify(subs(eta = chi, F50) - subs(eta = (1 - chi)/(1 + chi), F50)):
+        Np0  := simplify(expand(Qp0 * diff(F50, eta))):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31712" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L31711" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do 
+            print(l1):
+            for m1 from 1 to Nmax do
+                Dp0   := simplify(f0d0[l1](m1, eta, chi)/Qp0):
+                Mp0   := add(eta^j * mp0[j], j = 0..degree(Dp0, eta) - 1):
+                Tp0   := simplify(diff(f0d0[l1](m1, eta, chi), eta)/Dp0):
+                Eq0   := collect(f0n0[l1](m1, eta, chi) - diff(Mp0, eta) * Qp0 + Mp0 * (Tp0 - diff(Qp0, eta)) - Np0 * Dp0, eta): 
+                Eqv0  := [seq(coeff(Eq0, eta, j), j = 0..degree(Eq0, eta))]:
+                solM0 := solve(Eqv0,[seq(mp0[j], j = 0..degree(Dp0, eta) - 1), B1, B2, B3, B4]):
+
+                simplify(C00[l1](chi) * (subs(solM0[1], simplify(subs(eta = chi, Mp0/Dp0) - subs(eta = (1 - chi)/(1 + chi), Mp0/Dp0)) + F5I0))):
+                PhiTM[m1, 0, l1] := unapply(%, chi):
+                (-1)^l1 * PhiTM[m1, 0, l1](chi):
+                PhiTM[0, m1, l1] := unapply(%, chi):
+            od:
+        od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31726" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L31725" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        <Font foreground="[51,204,204]">########## 0 0 CASE ##########</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31728" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do
+            collect(simplify((1 + eta^2)^(2 * l1) * (chi^4 - 6*chi^2 + 1)^l1 * LegendreP(l1, (1 + chi^2)^2/(chi^4 - 6*chi^2 + 1)*(eta^4 - 6*eta^2 + 1)/(1 + eta^2)^2)), eta):
+            (1 - eta^2) * (eta^2 - chi^2) * (eta - (1 - chi)/(1 + chi)) * (eta - (1 + chi)/(1 - chi)) * %:
+            f0n00[l1] := unapply(%, eta, chi):
+            C000[l1]  := unapply(-4 * (1 - chi^2)/(chi^4 - 6*chi^2 + 1)^(l1 + 1), chi):
+            f0d00[l1] := unapply((1 + eta^2)^(3 + 2*l1) * (1 - eta^2), eta, chi):
+        od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31727" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31730" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        F500:=B1*ln(1-eta)+B2*ln(1+eta)+B3*ln(1+eta^2)+B4*arctan(eta):
+        F5I00:=simplify(subs(eta=chi,F500)-subs(eta=(1-chi)/(1+chi),F500)):
+        Np00:=simplify(expand(Qp00*diff(F500,eta))):</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31729" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31732" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        for l1 from 0 to lmax2 do 
+            print(l1):
+            Dp00   := simplify(f0d00[l1](eta, chi)/Qp00):
+            Mp00   := add(eta^j * mp00[j], j = 0..degree(Dp00, eta) - 1):
+            Tp00   := simplify(diff(f0d00[l1](eta, chi), eta)/Dp00):
+            Eq00   := collect(f0n00[l1](eta, chi) - diff(Mp00, eta) * Qp00 + Mp00 * (Tp00 - diff(Qp00, eta)) - Np00 * Dp00, eta): 
+            Eqv00  := [seq(coeff(Eq00, eta, j), j = 0..degree(Eq00, eta))]:
+            solM00 := solve(Eqv00, [seq(mp00[j], j = 0..degree(Dp00, eta) - 1), B1, B2, B3, B4]):
+            simplify(C000[l1](chi) * (subs(solM00[1], simplify(subs(eta = chi, Mp00/Dp00) - subs(eta = (1 - chi)/(1 + chi), Mp00/Dp00)) + F5I00))):
+            PhiTM[0, 0, l1] := unapply(%, chi):
+        od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31731" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31734" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">        save PhiHM, PhiHMs, PhiTM, dataFHFile:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31733" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,0,0]">end if:</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31736" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group labelreference="L31735" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,102,0]" encoding="UTF-8">    printf(&quot;Done, %.4gs\134n&quot;,time()-st1): st1:=time():</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L31739" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31738" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,102,0]">printf(&quot;computing hlM_L, hlM_R, hlM_LR coefficients... &quot;):</Font></Text-field>
+</Input>
+</Group>
+<Group labelreference="L31741" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31740" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    Digits := 600:
+    for j1 from 1 to Lambda do
+        xiV[j1]  := Pi/M * (j1 - 1/2);   
+        sV[j1]   := evalf(4/cos(xiV[j1]/2)^2); 
+        uV[j1]   := evalf(2/cos(xiV[j1]/2)); 
+        chiV[j1] := evalf((sqrt(4+sV[j1]) - 2)/sqrt(sV[j1])):
+        fgV[j1]  := evalf(Pi/4*sqrt((sV[j1] - 4)/sV[j1])):
+    od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31743" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31742" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    PhiV := Array(0..Nmax2, 1..Lambda, fill=0):
+    for j1 from 1 to Lambda do
+        for m1 from 1 to Nmax2 do
+            PhiV[m1, j1] := evalf[200](Phit(m1, xiV[j1])):
+        od:
+        PhiV[0, j1] := evalf[200](Phit0(xiV[j1])):
+    od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31745" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31744" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    PhiHnlV := Array(0..Nmax2, 0..lmax2, 1..Lambda, fill=0):
+    for j1 from 1 to M/2 do
+        for l1 from 0 to lmax2 do
+            for m2 from 0 to Nmax2 do
+                PhiHnlV[m2, l1, j1] := evalf[200](PhiHMs[m2, l1](uV[j1])):  #does not evaluate correctly (even though a simple function), use series instead
+            od:
+        od:
+    od:
+
+    for j1 from M/2+1 to Lambda do
+        for l1 from 0 to lmax2 do
+            for m2 from 0 to Nmax2 do
+                PhiHnlV[m2, l1, j1] := evalf[200](PhiHM[m2, l1](uV[j1])):   
+            od:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group labelreference="L31747" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31746" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    PhiTnmlV := Array(0..Nmax, 0..Nmax, 0..lmax2, 1..Lambda, fill=0):
+    for j1 from 1 to Lambda do
+        for l1 from 0 to lmax2 do
+            for m1 from 0 to Nmax do
+                for m2 from 0 to m1 do
+                    PhiTnmlV[m1,m2,l1,j1]:=evalf[200](PhiTM[m1,m2,l1](chiV[j1])):
+                    if m1&lt;&gt;m2 then
+                        PhiTnmlV[m2,m1,l1,j1]:=(-1)^l1*PhiTnmlV[m1,m2,l1,j1]: 
+                    end if:
+                od:
+            od:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31749" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31757" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,102,0]" encoding="UTF-8">printf(&quot;Done, %.4gs\134n&quot;,time()-st1): st1:=time():</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31756" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31759" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[51,204,204]">########## In 0 &lt; s &lt; 4 region ##########</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31758" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    s0V := Vector([1/2, 1, 3/2, 2,3]):
+    LambdaW := nops(s0V);
+    u0V := evalf(map(x -&gt; sqrt(x), s0V));
+    chi0V := evalf(map(x -&gt; (sqrt(x + 4) - 2)/sqrt(x), s0V));</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31761" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31760" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    PhiW := Array(0..Nmax2, 1..LambdaW, fill=0):
+    for j1 from 1 to LambdaW do
+        for m1 from 1 to Nmax2 do
+            PhiW[m1,j1] := evalf[200](Phi(m1, s0V[j1])):
+        od:
+        PhiW[0, j1] := evalf[200](Phi0(s0V[j1])):
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31755" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31754" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    PhiHnlW := Array(0..Nmax2, 0..lmax2, 1..LambdaW, fill=0):
+    for j1 from 1 to LambdaW do
+        for l1 from 0 to lmax2 do
+            for m2 from 0 to Nmax2 do
+                PhiHnlW[m2, l1, j1] := evalf[200](PhiHM[m2, l1](u0V[j1])):
+            od:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31767" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31766" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    PhiTnmlW := Array(0..Nmax, 0..Nmax, 0..lmax2, 1..LambdaW, fill=0):
+    for j1 from 1 to LambdaW do 
+        for l1 from 0 to lmax2 do
+            for m1 from 0 to Nmax do
+                for m2 from 0 to m1 do
+                    PhiTnmlW[m1, m2, l1, j1] := evalf[200](PhiTM[m1, m2, l1](chi0V[j1])):
+                    if m1&lt;&gt;m2 then
+                        PhiTnmlW[m2, m1, l1, j1] := (-1)^l1 * PhiTnmlW[m1, m2, l1, j1]:
+                    end if:
+                od:
+            od:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31768" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31769" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31770" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31771" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[0,255,255]">########## THREE PION PARTIAL WAVES ##########</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31772" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,102,0]">printf(&quot;Computing AlM coefficients for three pion... &quot;):</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31773" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    dl0 := Vector([seq(1, j = 1..Lambda), seq(0, 1..Lambda*(lmax - 1))]):
+    A0  := Vector(Lambda * lmax):
+    A2  := Vector(Lambda * lmax):
+    A0  := 2 * (Nf + 2) * dl0:
+    A2  := 4 * dl0:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31774" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31775" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    A0nl  := Array(0..Nmax2, 1..lmax, 1..Lambda, fill=0):
+    A1nl  := Array(0..Nmax2, 1..lmax, 1..Lambda, fill=0):
+    A2nl  := Array(0..Nmax2, 1..lmax, 1..Lambda, fill=0):
+    B0nl  := Array(0..Nmax2, 1..lmax, 1..Lambda, fill=0):
+    B1nl  := Array(0..Nmax2, 1..lmax, 1..Lambda, fill=0):
+    B2nl  := Array(0..Nmax2, 1..lmax, 1..Lambda, fill=0):
+    A0nml := Array(0..Nmax, 0..Nmax, 1..lmax, 1..Lambda, fill=0):
+    A1nml := Array(0..Nmax, 0..Nmax, 1..lmax, 1..Lambda, fill=0):
+    A2nml := Array(0..Nmax, 0..Nmax, 1..lmax, 1..Lambda, fill=0):
+    B0nml := Array(0..Nmax, 0..Nmax, 1..lmax, 1..Lambda, fill=0):
+    B1nml := Array(0..Nmax, 0..Nmax, 1..lmax, 1..Lambda, fill=0):
+    B2nml := Array(0..Nmax, 0..Nmax, 1..lmax, 1..Lambda, fill=0):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31779" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31777" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    for j1 from 1 to Lambda do 
+        for l from 1 to lmax do
+            l1 := 2*(l - 1):
+            l2 := 2*l - 1:
+            for m1 from 0 to Nmax2 do
+                A0nl[m1, l, j1] := 2 * Nf * delta(l1, 0) * PhiV[m1, j1] + 2 * PhiHnlV[m1, l1, j1]:
+                A1nl[m1, l, j1] := 2 * PhiHnlV[m1, l2, j1]:
+                A2nl[m1, l, j1] := 2 * PhiHnlV[m1, l1, j1]:
+                B0nl[m1, l, j1] := 4 * delta(l1,0) * PhiV[m1, j1] + 2 * (Nf + 1) * PhiHnlV[m1, l1, j1]:
+                B1nl[m1, l, j1] := -2 * PhiHnlV[m1, l2, j1]:
+                B2nl[m1, l, j1] := 4 * delta(l1,0) * PhiV[m1, j1] + 2 * PhiHnlV[m1, l1, j1]:
+            od:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31778" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31782" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    for j1 from 1 to Lambda do
+        for l from 1 to lmax do
+            l1:=2*(l-1):
+            l2:=2*l-1:
+            for m1 from 0 to Nmax do
+                for m2 from 0 to Nmax do
+                    A0nml[m1, m2, l, j1] := (2 * Nf * PhiV[m1, j1] * PhiHnlV[m2, l1, j1] + 2 * PhiV[m2, j1] * PhiHnlV[m1, l1, j1] + 2 * PhiTnmlV[m1, m2, l1, j1]):
+                    A1nml[m1, m2, l, j1] := ( 2 * PhiV[m2, j1] * PhiHnlV[m1, l2, j1] + 2 * PhiTnmlV[m1, m2, l2, j1] ):
+                    A2nml[m1, m2, l, j1] := ( 2 * PhiV[m2, j1] * PhiHnlV[m1, l1, j1] + 2 * PhiTnmlV[m1, m2, l1, j1] ):
+                    B0nml[m1, m2, l, j1] := (     PhiV[m1, j1] * PhiHnlV[m2, l1, j1] +   PhiV[m2, j1] * PhiHnlV[m1, l1, j1] + Nf * PhiTnmlV[m1, m2, l1, j1]):
+                    B1nml[m1, m2, l, j1] := (    -PhiV[m1, j1] * PhiHnlV[m2, l2, j1] -   PhiV[m2, j1] * PhiHnlV[m1, l2, j1] ):
+                    B2nml[m1, m2, l, j1] := (     PhiV[m1, j1] * PhiHnlV[m2, l1, j1] +   PhiV[m2, j1] * PhiHnlV[m1, l1, j1] ):
+                od:
+            od:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31780" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31781" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,102,0]" encoding="UTF-8">printf(&quot;Done A\134n&quot;);
+    printf(&quot;Done, %.4gs\134n&quot;,time()-st1):
+    st1:=time():
+    </Font><Font foreground="[255,102,0]">printf(&quot;filling K12 matrices... &quot;):</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31785" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31786" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    Mfl:=lmax*Lambda: Mfn:=(Nmax+1)*(Nmax+1): MfnS:=(Nmax+1)*(Nmax+2)/2:
+    A0lnM:=Matrix(Mfl,Nmax2+1):
+    A1lnM:=Matrix(Mfl,Nmax2+1):
+    A2lnM:=Matrix(Mfl,Nmax2+1):
+    B0lnM:=Matrix(Mfl,Nmax2+1):
+    B1lnM:=Matrix(Mfl,Nmax2+1):
+    B2lnM:=Matrix(Mfl,Nmax2+1):
+    A0lnmM:=Matrix(Mfl,Mfn):
+    A1lnmM:=Matrix(Mfl,Mfn):
+    A2lnmM:=Matrix(Mfl,Mfn):
+    B0lnmM:=Matrix(Mfl,MfnS):
+    B1lnmM:=Matrix(Mfl,MfnS):
+    B2lnmM:=Matrix(Mfl,MfnS):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31787" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31788" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    # Now we put computation data in matrix form</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31789" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    jf1 := 1:
+    for l1 from 1 to lmax do
+        for j1 from 1 to Lambda do
+            for m1 from 0 to Nmax2 do
+                A0lnM[jf1,m1+1]:=A0nl[m1,l1,j1]:
+                A1lnM[jf1,m1+1]:=A1nl[m1,l1,j1]:
+                A2lnM[jf1,m1+1]:=A2nl[m1,l1,j1]:
+                B0lnM[jf1,m1+1]:=B0nl[m1,l1,j1]:
+                B1lnM[jf1,m1+1]:=B1nl[m1,l1,j1]:
+                B2lnM[jf1,m1+1]:=B2nl[m1,l1,j1]:
+            od:
+        jf1 := jf1 + 1:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31790" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31783" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    jf1 := 1:
+    for l1 from 1 to lmax do
+        for j1 from 1 to Lambda do 
+            jf2:=1:
+            for m1 from 0 to Nmax do
+                for m2 from 0 to Nmax do
+                    A0lnmM[jf1,jf2]:=A0nml[m1,m2,l1,j1]:
+                    A1lnmM[jf1,jf2]:=A1nml[m1,m2,l1,j1]:
+                    A2lnmM[jf1,jf2]:=A2nml[m1,m2,l1,j1]:
+                    jf2:=jf2+1:
+                od:
+            od:
+        jf1 := 1:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31793" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31794" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    jf1:=1:
+    for l1 from 1 to lmax do 
+        for j1 from 1 to Lambda do
+            jf2:=1:
+            for m1 from 0 to Nmax do
+                for m2 from m1 to Nmax do
+                    B0lnmM[jf1,jf2]:=B0nml[m1,m2,l1,j1]:
+                    B1lnmM[jf1,jf2]:=B1nml[m1,m2,l1,j1]:
+                    B2lnmM[jf1,jf2]:=B2nml[m1,m2,l1,j1]:
+                    jf2:=jf2+1:
+                od:
+            od:
+            jf1 := jf1 + 1:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31795" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31796" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Font foreground="[255,102,0]" encoding="UTF-8">    printf(&quot;Done, %.4gs\134n&quot;,time()-st1):
+    st1:=time():</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31797" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31798" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[0,255,255]">########## FORM FACTOR ##########</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31791" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    FFM:=Matrix(Lambda,Nmax2):
+    for j1 from 1 to Lambda do
+        for m1 from 1 to Nmax2 do
+            FFM[j1,m1]:=PhiV[m1,j1]:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31817" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31818" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31804" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[0,255,255]">########## FUNCTIONAL ##########</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31803" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,102,0]">printf(&quot;computing AlM coefficients for three pion functional... &quot;):</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31806" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    dl0W := Vector([seq(1, j = 1..LambdaW), seq(0, 1..LambdaW*(lmax - 1))]):
+    A0W  := Vector(Lambda * lmax):
+    A2W  := Vector(Lambda * lmax):
+    A0W  := 2 * (Nf + 2) * dl0W:
+    A2W  := 4 * dl0W: </Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31808" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31809" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    A0nlW  := Array(0..Nmax2, 1..lmax, 1..LambdaW, fill=0):
+    A1nlW  := Array(0..Nmax2, 1..lmax, 1..LambdaW, fill=0):
+    A2nlW  := Array(0..Nmax2, 1..lmax, 1..LambdaW, fill=0):
+    B0nlW  := Array(0..Nmax2, 1..lmax, 1..LambdaW, fill=0):
+    B1nlW  := Array(0..Nmax2, 1..lmax, 1..LambdaW, fill=0):
+    B2nlW  := Array(0..Nmax2, 1..lmax, 1..LambdaW, fill=0):
+    A0nmlW := Array(0..Nmax, 0..Nmax, 1..lmax, 1..LambdaW, fill=0):
+    A1nmlW := Array(0..Nmax, 0..Nmax, 1..lmax, 1..LambdaW, fill=0):
+    A2nmlW := Array(0..Nmax, 0..Nmax, 1..lmax, 1..LambdaW, fill=0):
+    B0nmlW := Array(0..Nmax, 0..Nmax, 1..lmax, 1..LambdaW, fill=0):
+    B1nmlW := Array(0..Nmax, 0..Nmax, 1..lmax, 1..LambdaW, fill=0):
+    B2nmlW := Array(0..Nmax, 0..Nmax, 1..lmax, 1..LambdaW, fill=0):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31810" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31811" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    for j1 from 1 to LambdaW do 
+        for l from 1 to lmax do
+            l1 := 2*(l - 1):
+            l2 := 2*l - 1:
+            for m1 from 0 to Nmax2 do
+                A0nlW[m1, l, j1] := 2 * Nf * delta(l1, 0) * PhiW[m1, j1] + 2 * PhiHnlW[m1, l1, j1]:
+                A1nlW[m1, l, j1] := 2 * PhiHnlW[m1, l2, j1]:
+                A2nlW[m1, l, j1] := 2 * PhiHnlW[m1, l1, j1]:
+                B0nlW[m1, l, j1] := 4 * delta(l1, 0) * PhiW[m1, j1] + 2 * (Nf + 1) * PhiHnlW[m1, l1, j1]:
+                B1nlW[m1, l, j1] := -2 * PhiHnlW[m1, l2, j1]:
+                B2nlW[m1, l, j1] := 4 * delta(l1, 0) * PhiW[m1, j1] + 2 * PhiHnlW[m1, l1, j1]:
+            od:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31812" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31813" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    for j1 from 1 to LambdaW do 
+        for l from 1 to lmax do
+            l1 := 2*(l - 1):
+            l2 := 2*l - 1:
+            for m1 from 0 to Nmax do
+                for m2 from 0 to Nmax do
+                    A0nmlW[m1, m2, l, j1] := (2 * Nf * PhiW[m1, j1] * PhiHnlW[m2, l1, j1] + 2 * PhiW[m2, j1] * PhiHnlW[m1, l1, j1] + 2 * PhiTnmlW[m1, m2, l1, j1]):
+                    A1nmlW[m1, m2, l, j1] := (2 * PhiW[m2, j1] * PhiHnlW[m1, l2, j1] + 2 * PhiTnmlW[m1, m2, l2, j1]):
+                    A2nmlW[m1, m2, l, j1] := (2 * PhiW[m2, j1] * PhiHnlW[m1, l1, j1] + 2 * PhiTnmlW[m1, m2, l1, j1]):
+                    B0nmlW[m1, m2, l, j1] := ( PhiW[m1, j1] * PhiHnlW[m2, l1, j1] + PhiW[m2, j1] * PhiHnlW[m1, l1, j1] + Nf * PhiTnmlW[m1, m2, l1, j1]):
+                    B1nmlW[m1, m2, l, j1] := (-PhiW[m1, j1] * PhiHnlW[m2, l2, j1] - PhiW[m2, j1] * PhiHnlW[m1, l2, j1]):
+                    B2nmlW[m1, m2, l, j1] := ( PhiW[m1, j1] * PhiHnlW[m2, l1, j1] + PhiW[m2, j1] * PhiHnlW[m1, l1, j1]):
+                od:
+            od:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31814" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31815" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,102,0]" encoding="UTF-8">printf(&quot;Done A\134n&quot;);
+    printf(&quot;Done, %.4gs\134n&quot;,time()-st1):
+    st1:=time():</Font><Font foreground="[255,102,0]">
+    printf(&quot;filling K12 matrices... &quot;):</Font></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31816" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31805" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    MflW:=lmax*LambdaW: Mfn:=(Nmax+1)*(Nmax+1): MfnS:=(Nmax+1)*(Nmax+2)/2:
+    A0lnW:=Matrix(MflW,Nmax2+1):
+    A1lnW:=Matrix(MflW,Nmax2+1):
+    A2lnW:=Matrix(MflW,Nmax2+1):
+    B0lnW:=Matrix(MflW,Nmax2+1):
+    B1lnW:=Matrix(MflW,Nmax2+1):
+    B2lnW:=Matrix(MflW,Nmax2+1):
+    A0lnmW:=Matrix(MflW,Mfn):
+    A1lnmW:=Matrix(MflW,Mfn):
+    A2lnmW:=Matrix(MflW,Mfn):
+    B0lnmW:=Matrix(MflW,MfnS):
+    B1lnmW:=Matrix(MflW,MfnS):
+    B2lnmW:=Matrix(MflW,MfnS):</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31821" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31822" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    # Now we put computation data in matrix form</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31823" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    jf1:=1:
+    for l1 from 1 to lmax do 
+        for j1 from 1 to LambdaW do 
+            for m1 from 0 to Nmax2 do
+                A0lnW[jf1,m1+1]:=A0nlW[m1,l1,j1]:
+                A1lnW[jf1,m1+1]:=A1nlW[m1,l1,j1]:
+                A2lnW[jf1,m1+1]:=A2nlW[m1,l1,j1]:
+                B0lnW[jf1,m1+1]:=B0nlW[m1,l1,j1]:
+                B1lnW[jf1,m1+1]:=B1nlW[m1,l1,j1]:
+                B2lnW[jf1,m1+1]:=B2nlW[m1,l1,j1]:
+            od:
+            jf1:=jf1+1:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31824" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31825" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    jf1:=1:
+    for l1 from 1 to lmax do 
+        for j1 from 1 to LambdaW do 
+            jf2:=1:
+            for m1 from 0 to Nmax do
+                for m2 from 0 to Nmax do
+                    A0lnmW[jf1,jf2]:=A0nmlW[m1,m2,l1,j1]:
+                    A1lnmW[jf1,jf2]:=A1nmlW[m1,m2,l1,j1]:
+                    A2lnmW[jf1,jf2]:=A2nmlW[m1,m2,l1,j1]:
+                    jf2:=jf2+1:
+                od:
+            od:
+            jf1:=jf1+1:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31826" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31819" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    jf1:=1:
+    for l1 from 1 to lmax do 
+        for j1 from 1 to LambdaW do
+            jf2:=1:
+            for m1 from  0 to Nmax do
+                for m2 from m1 to Nmax do
+                    B0lnmW[jf1,jf2]:=B0nmlW[m1,m2,l1,j1]:
+                    B1lnmW[jf1,jf2]:=B1nmlW[m1,m2,l1,j1]:
+                    B2lnmW[jf1,jf2]:=B2nmlW[m1,m2,l1,j1]:
+                    jf2:=jf2+1:
+                od:
+            od:
+            jf1 := jf1 + 1:
+        od:
+    od:</Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L31820" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">    <Font foreground="[255,102,0]" encoding="UTF-8">printf(&quot;Done, %.4gs\134n&quot;,time()-st1): st1:=time():</Font></Text-field>
+</Input>
+</Group>
+</Section>
+<Group hide-input="false" labelreference="L31765" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L17562" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L17563" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L17566" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+<Group hide-input="false" labelreference="L17507" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+</Input>
+</Group>
+</Worksheet>
